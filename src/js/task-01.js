@@ -1,5 +1,6 @@
 const liEl = document.querySelectorAll(".item");
 console.log("Number of categories:", liEl.length);
+
 const firstLiElChild = liEl[0].firstElementChild;
 console.log("Category:", firstLiElChild.textContent);
 const listAllElements = document.querySelectorAll(".item ul");
