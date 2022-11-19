@@ -6,7 +6,7 @@ const refs = {
 console.log(refs.dataLength);
 
 refs.input.addEventListener("blur", (event) => {
-  if (event.currentTarget.value.length == refs.dataLength) {
+  if (event.currentTarget.value.length === Number(refs.dataLength)) {
     refs.input.classList.remove("invalid");
     refs.input.classList.add("valid");
     return;
